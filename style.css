@@ -1,0 +1,502 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    /* border: 1px solid red; */
+
+}
+nav{
+    height: 50px;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 50px;
+    color: #fff;
+}
+.home{
+    display: flex;
+    list-style: none;
+
+}
+li{
+    margin-left: 60px;
+}
+.search{
+    padding: 5px;
+    background-color:white;
+    border-radius: 20px; 
+    color:black;
+}
+.container{
+    display: flex;
+}
+.text-section{
+    width: 50%;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 30px 50px;
+    background-color: black;
+}
+.brand,.price{
+    color: #fff;
+}
+nav h1
+{
+    color: orangered;
+}
+img{
+    height:100px;
+    padding: 3px;
+    border: 1px solid white;
+}
+.A{
+    font-size: 20px;
+    color: darkgray;
+}
+.italian{
+    font-size: 18px;
+    color: darkgray;
+}
+.buy{
+    height: 40px;
+    width:100px;
+}
+button a{
+    text-decoration: none;
+    color: black;
+}
+.img-section{
+    width: 50%;
+background-image: url(./2.PNG);
+background-size:cover;
+background-position: center;
+}
+.card{
+    height: 80vh;
+    display: flex;
+ border-top: 5px solid gray;
+    /* justify-content: space-between; */
+}
+.diff{
+    padding: 20px 0px 0px 50px;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+background-color: black;
+color: #fff;
+    justify-content: space-between;
+}
+.diff img{
+    height: 230px;
+}
+.section{
+
+    width: 35%;
+padding-top: 100px;
+  background-color: black;
+    padding-bottom: 5px;
+}
+.section img{
+    height: 420px;
+    width: 470px;
+}
+.paregraf{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+   background-color: black;
+    padding: 0px 40px;
+    color: #fff;
+}
+.one{
+    margin-bottom: 60px;
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 200px;
+}
+.paregraf button{
+    height: 40px;
+    width: 120px;
+margin-left: 370px;
+
+}
+.sec{
+    margin-bottom: 100px;
+}
+.image{
+    border-top: 5px solid gray;
+    background-image: url(./aroma-group-leather-unisex-men-women-italian-leather-memo-paris-perfume-cosmetics-store-february-174939503.jpg);
+    padding: 40px;
+height: 80vh;
+background-size: cover;
+background-position: center;
+display: flex;
+align-items: end;
+justify-content: end;
+}
+.image h1{
+color:orange;
+font-size: 40px;
+}
+.cust{
+    height: 100vh;
+    display: flex;
+
+
+}
+.img2{
+    width: 50%;
+}
+.img2 img{
+    margin-top: 50px;
+margin-left: 200px;
+ height: 500px;
+}
+
+.section-text{
+    width: 50%;
+ margin-top: 80px;
+ padding-right: 50px;
+ 
+
+}
+.one1{
+    margin-top: 60px;
+    padding: 20px;
+    background-color: rgb(235, 229, 223);
+    margin-bottom: 30px;
+
+}
+.sec2{
+    padding: 20px;
+    background-color: rgb(235, 229, 223);
+    margin-bottom: 30px;
+
+}
+.weon{
+    display: flex;
+    justify-content: center;
+    background-color:#cfcbcb ;
+}
+.box{
+    height: 50vh;
+    background-color: #cfcbcb;
+    display: flex;
+    justify-content:space-between;
+    padding: 30px 50px;
+}
+.box1{
+    height: 250px;
+    width: 210px;
+background-image: url(./5.jpg);
+background-size: cover;background-position: center;
+}
+.box2{
+    height: 250px;
+    width: 210px;
+    background-image: url(./9.webp);
+background-size: cover;background-position: center;
+}
+.box3{
+    height: 250px;
+    width: 210px;
+    background-image: url(./8.webp);
+    background-size: cover;background-position: center;
+}
+.box4{
+    height: 250px;
+    width: 210px;
+    background-image: url(./6.webp);
+    background-size: cover;background-position: center;
+}
+.box5{
+    height: 250px;
+    width: 210px;
+    background-image: url(./7.jfif);
+    background-size: cover;background-position: center;
+}
+.btn{
+    display:flex ;
+    justify-content: center;
+    background-color: #cfcbcb;
+}
+.btn a{
+    padding: 10px 20px;
+    background-color: #FFE000;
+    text-decoration: none;
+    border-radius: 10px;
+color: black;
+
+}
+.bi{
+    margin-right: 20px;
+}
+.image2{
+    width: 50%;
+    border-right: 1px  solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   }
+   .image2 img{
+    height:400px;
+   }
+   .scrol{
+    display: flex;
+    height: 80vh;
+    padding: 30px 0px;
+    background-color: #cfcbcb;
+
+   }
+   .text2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 50%;
+    border-left:1px solid black ;
+    padding-left: 40px;
+   }
+   .liml{
+    display: flex;
+   }
+   .liml li {
+    list-style: none;
+    /* margin-top: 30px; */
+     }
+     .liml a{
+        text-decoration: none;
+        padding: 7px 20px;
+    background: none;
+        border: 1px solid black;
+        border-radius: 10px;
+        color:black;
+       }
+
+       .add{
+        height: 50px;
+        width: 50%;
+        border-radius: 10px;
+        border: none;
+        background-color: #FFE000;
+     }
+     .cart{
+        margin-right: 80px;
+        font-size: 20px;
+     }
+
+
+
+     .foot{
+        display: flex;
+        width: 60%;
+        justify-content: space-between;
+        padding: 30px;
+       
+     }
+
+     .custm{
+        display: flex;
+        flex-direction: column;
+       
+     }
+     .get{
+        display: flex;
+        flex-direction: column;
+        
+     }
+     .get a,.custm a{
+        margin-top: 20px;
+        color: black;
+     }
+     .ia{
+        display: flex;
+        align-items: center;
+        
+     }
+     .ia a{
+        font-size: 30px;
+        margin-left: 20px;
+     }
+     .ins{
+        color: orangered;
+        font-size: 40px;
+    }
+    .fac{
+        font-size: 40px;
+        color: rgb(65, 30, 194);
+        }
+    .wha{
+        font-size: 40px;
+        color: rgb(22, 197, 36);
+    }.twi{
+        font-size: 40px;
+        color: rgb(10, 146, 209);
+    }
+
+
+
+    H6{
+        border-bottom: 1px solid black;
+    }
+    .last{
+        
+        /* height: 100px; */
+        display: flex;
+        justify-content: center;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+
+    @media(max-width :768px){
+        nav li{
+            display: none;
+        }
+        nav{
+        display: flex;
+        justify-content: center;
+            }
+           .container{
+            display: flex;
+            flex-direction: column;
+            height: 150vh;
+           }
+           .text-section{
+            width: 100%;
+           }
+           .extra{
+            display: block;
+            display: flex;
+            justify-content: center;
+    
+    }
+    .extra img{
+        height: 400px;
+
+    }
+    .card{
+        height: 180vh;
+        display: flex;
+        flex-direction: column;
+     border-top: 5px solid gray;
+     background-color: black;
+        }
+        .diff{
+            padding: 0px;
+            width: 100%;
+            flex-direction: column;
+             display: flex;
+        background-color: black;
+        color: #fff;
+        align-items: center;
+            justify-content: space-between; 
+        }
+        .diff img{
+            height: 350px;
+            margin-top: 30px;
+        }
+        .section{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+align-items: center;
+padding: 20px;
+          
+        }
+        .section img{
+            height: 300px;
+            width: 200px;
+        }
+        .paregraf button{
+            height: 40px;
+            width: 70%;
+        margin: 0%;
+        margin-bottom: 30px;
+        border-radius: 10px;
+        
+        }
+        .paregraf{
+          display: flex;
+          align-items: center;
+        }
+      .one{
+            margin-bottom: 50px;
+          margin-top: 50px;
+        }
+        .cust{
+            height: 160vh;
+            display: flex;
+            flex-direction: column;
+           
+    }
+   .section-text{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0%;
+   }
+   .box{
+    padding: 0%;
+   
+   }
+   .scrol{
+    display: flex;
+    flex-direction: column;
+    height: 160vh;
+   }
+   .image2{
+    width: 100%;
+  
+    display: flex;
+  
+    flex-direction: column;
+  
+   }
+   .text2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    padding: 5%;
+   }
+  
+     .liml a{
+     padding: 7px 20px;
+     margin-top: 30px;
+    background: none;
+        border: 1px solid black;
+        border-radius: 10px;
+        color:black;
+    
+       }
+
+       .add{
+       margin-top: 30px;
+        margin-bottom: 30px;
+        margin-left: 100px;
+
+
+     }
+    
+     .liml{
+        display: flex;
+        margin-top: 30px;
+       }
+       .lastp{
+        margin-bottom: 20px;
+       }
+       .foot{
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        /* justify-content: space-between; */
+        padding: 30px;
+       
+     }
+     
+}
